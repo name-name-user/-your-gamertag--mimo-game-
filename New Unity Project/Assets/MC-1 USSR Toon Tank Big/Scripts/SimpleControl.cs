@@ -123,7 +123,6 @@ public class SimpleControl : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
-        winText.text = "";
     }
 
     private void FixedUpdate()
