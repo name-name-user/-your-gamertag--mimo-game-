@@ -132,7 +132,7 @@ public class SimpleControl : MonoBehaviour
 
         Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
 
-        rb.AddRelativeForce(movement * speed);
+        rb.AddForce(movement * speed);
 
 
     }
